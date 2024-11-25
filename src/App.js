@@ -21,7 +21,6 @@ function App() {
   const options = {
     loop: true,
     margin: 10,
-    // nav: true,
     items: 1,
     autoplay: true,
     autoplayTimeout: 3000,
@@ -31,7 +30,6 @@ function App() {
   return (
     <>
       <Navabar />
-
       <main>
         <section className="slider">
           <div className="shape" />
